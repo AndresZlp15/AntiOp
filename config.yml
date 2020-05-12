@@ -1,0 +1,12 @@
+permissionCheck: false
+opListOverridePermissionCheck: true
+permission: 'lutorlandia.op'
+intervalBetweenChecks: 200
+opListCheck: true
+opList:
+  - 'Username'
+commandsToRun:
+  - 'deop %player%'
+  - 'lp user %player% permission unset *'
+  - 'lp user %player% clear'
+  - 'banip %player% Lutorlandia Anti-Op -s'
